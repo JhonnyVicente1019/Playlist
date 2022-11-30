@@ -6,6 +6,8 @@ import morgan from 'morgan'
 
 import 'dotenv/config'
 
+import database from './database'
+
 import PlaylistRoutes from './routes/Playlist.routes'
 
 //crea la aplicacion 

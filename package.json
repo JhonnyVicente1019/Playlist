@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/JhonnyVicente1019/Playlist#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.7.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
