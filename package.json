@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "nodemon": "node app.js"
+    "nodemon": "node app.js",
+    "dev": "nodemon ./ --exec babel-node"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,15 @@
   },
   "homepage": "https://github.com/JhonnyVicente1019/Playlist#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.7.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "dotenv": "^16.0.3",
+    "morgan": "^1.10.0"
   }
 }
